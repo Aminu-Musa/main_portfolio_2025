@@ -12,7 +12,20 @@ import img9 from "../../assets/work/workImgNine.jpg";
 import img10 from "../../assets/work/workImgTen.jpg";
 import img11 from "../../assets/work/workImgEleven.jpg";
 import img12 from "../../assets/work/workImgTwelve.jpg";
-
+import img13 from "../../assets/work/workImgThirteen.jpg";
+import img14 from "../../assets/work/workImgFourteen.png";
+import img15 from "../../assets/work/workImgFifteen.jpg";
+import img16 from "../../assets/work/workImgSixteen.jpg";
+import img17 from "../../assets/work/workImgSeventeen.jpg";
+import img18 from "../../assets/work/workImgEighteen.jpg";
+import img19 from "../../assets/work/workImgNineteen.jpg";
+import img20 from "../../assets/work/workImgTwenty.jpg";
+import img21 from "../../assets/work/workImgTwentyone.jpg";
+import img22 from "../../assets/work/workImgTwentytwo.jpg";
+import img23 from "../../assets/work/workImgTwentythree.jpg";
+import img25 from "../../assets/work/workImgTwentyfive.jpg";
+import img26 from "../../assets/work/workImgTwentysix.jpg";
+import img27 from "../../assets/work/workImgTwentyseven.jpg";
 // LightGallery (npm)
 import lightGallery from "lightgallery";
 
@@ -83,15 +96,23 @@ const projectData = [
     title: "Surface Water Dynamic Monitoring",
     location: "Lake Chad",
     tools: "GEE, ArcGIS Pro",
-    dataset: "Surface water was extracted from Landsat Imagery using Automated Water Extraction Index (AWEI)",
+    dataset:
+      "Surface water was extracted from Landsat Imagery using Automated Water Extraction Index (AWEI)",
     image: img8,
   },
-  { title: "Lineament Map", location: "Abuja, Nigeria", tools: "PCI Geomatica, QGIS", dataset: "SRTM DEM & Nigeria Lineament Map", image: img9 },
+  {
+    title: "Lineament Map",
+    location: "Abuja, Nigeria",
+    tools: "PCI Geomatica, QGIS",
+    dataset: "SRTM DEM & Nigeria Lineament Map",
+    image: img9,
+  },
   {
     title: "Groundwater Potential Modelling",
     location: "Abuja, Nigeria",
     tools: " Python, Grass GIS, QGIS, ArcGIS, AHP ",
-    dataset: "LULC, SRTM DEM, Soil, Lineament, Rainfall, Slope, Drainage, Depth to bedrock, Distance to drainage, Lithology",
+    dataset:
+      "LULC, SRTM DEM, Soil, Lineament, Rainfall, Slope, Drainage, Depth to bedrock, Distance to drainage, Lithology",
     image: img10,
   },
   {
@@ -105,8 +126,109 @@ const projectData = [
     title: "2011, LULC Map",
     location: "Ajeokuta, Nigeria",
     tools: "ArcGIS Pro",
-    dataset: "Machine learning classification of Landsat Imagery using Support Vector Machine (SVM) Algorithm",
+    dataset:
+      "Machine learning classification of Landsat Imagery using Support Vector Machine (SVM) Algorithm",
     image: img12,
+  },
+  {
+    title: "Land surface Temp. Map",
+    location: "Onitsha, Nigeria",
+    tools: "Google Colab, GEE",
+    dataset: "Landsat 8 SR Image",
+    image: img13,
+  },
+  {
+    title: "Land surface Temp. Map",
+    location: "Nnewi, Nigeria",
+    tools: "Google Colab, GEE",
+    dataset: "Landsat 8 SR Image",
+    image: img14,
+  },
+  {
+    title: "Crime Hotspot Map",
+    location: "Suleja, Nigeria",
+    tools: "Getis*Ord, IDW, ArcGIS Pro",
+    dataset: "Crime data",
+    image: img15,
+  },
+  {
+    title: "Point Location Map",
+    location: "Lokoja, Nigeria",
+    tools: "ArcGIS Pro",
+    dataset: "GPS",
+    image: img16,
+  },
+  {
+    title: "Study Area Map",
+    location: "Niger Delta, Nigeria",
+    tools: "QGIS",
+    dataset: " GPS",
+    image: img17,
+  },
+  {
+    title: "Bus Terminal Location Map",
+    location: "Abuja, Nigeria",
+    tools: "ArcGIS Pro, Excel",
+    dataset: "GPS",
+    image: img18,
+  },
+  {
+    title: "Topographic Map",
+    location: "Suleja, Nigeria",
+    tools: "ArcGIS, Google Earth Map",
+    dataset: "HDX, OSM & SRTM Data",
+    image: img19,
+  },
+  {
+    title: "Property value Map",
+    location: "Anyigba, Nigeria",
+    tools: "ArcGIS",
+    dataset: "GPS",
+    image: img20,
+  },
+  {
+    title: "Public School Location Map",
+    location: "Ankpa, Nigeria",
+    tools: "ArcGIS, Excel",
+    dataset: "GPS",
+    image: img21,
+  },
+  {
+    title: "Borehole & Well Location Map",
+    location: "Minna, Nigeria",
+    tools: "ArcGIS, GPS",
+    dataset: "HDX, OSM & SRTM Data",
+    image: img22,
+  },
+  {
+    title: "Preliminary site survey Map",
+    location: "Omala, Nigeria",
+    tools: "ArcGIS",
+    dataset: "GPS",
+    image: img23,
+  },
+
+  {
+    title: "Preliminary site survey Map",
+    location: "Omala, Nigeria",
+    tools: "ArcGIS",
+    dataset: "GPS",
+    image: img25,
+  },
+
+  {
+    title: "Methodology Flowchart, GWP Modelling",
+    location: "Suleja, Nigeria",
+    tools: "Ms word, Photoshop",
+    dataset: "AHP & GIS",
+    image: img26,
+  },
+  {
+    title: "Lithological Map Processing",
+    location: "Ajeokuta, Nigeria",
+    tools: "ArcGIS, GPS",
+    dataset: "Dips, Lithology, Strike Direction & SRTM Data",
+    image: img27,
   },
 ];
 
