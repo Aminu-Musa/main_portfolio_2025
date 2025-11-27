@@ -5,63 +5,34 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <div>
-      <Title title="Latest" subTitle="Posts" />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
-        <div className="px-6">
-          <BlogCard
-            image={blogImgOne}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
-          />
-          <BlogCard
-            image={blogImgTwo}
-            title="July 15, 2020"
-            subTitle="How to become a creative designer"
-            category="Documentation"
-          />
-          <BlogCard
-            image={blogImgThree}
-            title="July 14, 2020"
-            subTitle="Designers thoughts about mobile UI templates"
-            category="Travel"
-          />
-          <BlogCard
-            image={blogImgOne}
-            title="July 13, 2020"
-            subTitle="Designer Conference at Florida, USA 2020"
-            category="Documentation"
-          />
-        </div>
-        <div className="px-6">
-          <BlogCard
-            image={blogImgThree}
-            title="July 13, 2020"
-            subTitle="Designer Conference at Florida, USA 2020"
-            category="Documentation"
-          />
-          <BlogCard
-            image={blogImgTwo}
-            title="July 14, 2020"
-            subTitle="Designers thoughts about mobile UI templates"
-            category="Travel"
-          />
-          <BlogCard
-            image={blogImgOne}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
-          />
-          <BlogCard
-            image={blogImgThree}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
-          />
-        </div>
-      </div>
-    </div>
+<div>
+  <Title title="Academic" subTitle="Publications" />
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10 px-6">
+    <BlogCard
+      link="https://www.scirp.org/pdf/jgis_2023080315220849.pdf"
+      image={blogImgOne}
+      title="04 August, 2023"
+      subTitle="Spatial Pattern and Distribution of Crime in Suleja Lga, Niger State, Nigeria"
+      category="Published paper"
+    />
+    <BlogCard
+      link="https://journal-innovations.com/assets/uploads/doc/ae0aa-813-820.16416.pdf"
+      image={blogImgTwo}
+      title="15 June, 2023"
+      subTitle="Assessment of crime rate during Covid-19 lockdown in Suleja Lga, Niger state, Nigeria"
+      category="Published paper"
+    />
+    <BlogCard
+      link="https://www.academia.edu/145165322/ANALYSIS_OF_CRIME_HOTSPOTS_IN_BWARI_AREA_COUNCIL_FEDERAL_CAPITAL_TERRITORY_ABUJA_NIGERIA"
+      image={blogImgThree}
+      title="02 October, 2024"
+      subTitle="Analysis Of Crime Hotspots In Bwari Area Council, Federal Capital Territory, Abuja, Nigeria."
+      category="Unpublished"
+    />
+  </div>
+</div>
+
   );
 };
 

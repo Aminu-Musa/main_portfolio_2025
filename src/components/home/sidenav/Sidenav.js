@@ -5,32 +5,24 @@ const Sidenav = () => {
   return (
     <div className="px-7 py-4">
       <SidenavTitle title="M" subTitle="enu" />
+      <SidenavTitle title="S" subTitle="pecialities" />
       <ul>
-        <li className="sidenavLi">Blog Page</li>
-        <li className="sidenavLi">Portfolio Page</li>
-      </ul>
-      <SidenavTitle title="P" subTitle="rojects" />
-      <ul>
+        <li className="sidenavLi">GIS Analysis</li>
         <li className="sidenavLi">Web Development</li>
-        <li className="sidenavLi">E-commerce</li>
-        <li className="sidenavLi">Chatting Applications</li>
-        <li className="sidenavLi">Portfolio Websites</li>
-        <li className="sidenavLi">Backend Setup</li>
-        <li className="sidenavLi">Amazon Clone</li>
+        <li className="sidenavLi">Research</li>
+        <li className="sidenavLi">Teaching/Instructing</li>
       </ul>
-      <SidenavTitle title="L" subTitle="atest Posts" />
+      <SidenavTitle title="C" subTitle="urrent Projects" />
       <ul>
-        <li className="sidenavLi">UI & UX Conference at Lviv 2022</li>
-        <li className="sidenavLi">How to become a creative designer</li>
-        <li className="sidenavLi">
-          Designers thoughts about mobile UI templates
-        </li>
-        <li className="sidenavLi">Designer Conference at Florida, USA 2020</li>
+        <li className="sidenavLi">A Sub-pixel base LST Modelling using Biophysical predictors</li>
+        <li className="sidenavLi">Application of GeoAI in Exploring the impact of LST on Groundwater recharge</li>
+        <li className="sidenavLi"> Crime Mapping and Prediction using Machine Learning </li>
+        <li className="sidenavLi">Geospatial Big Data for Biomass Yield Prediction</li>
       </ul>
       <SidenavTitle title="R" subTitle="each Me" />
       <ul>
-        <li className="sidenavLi">+968 24769821</li>
-        <li className="sidenavLi">noor.jsdivs@gmail.com</li>
+        <li className="sidenavLi">+234 9060163364</li>
+        <li className="sidenavLi">aminumusa669@gmail.com</li>
       </ul>
     </div>
   );
