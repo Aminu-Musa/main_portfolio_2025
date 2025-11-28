@@ -18,8 +18,8 @@ const AboutMe = () => {
             Nigeria
           </li>
           <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">Frelance:</span>
-            Available  
+            <span className="aboutRightLiSpan">Work status:</span>
+            Open to work  
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
