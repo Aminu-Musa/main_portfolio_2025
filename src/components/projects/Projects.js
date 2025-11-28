@@ -65,10 +65,10 @@ const projectData = [
     image: img3,
   },
   {
-    title: "Digitized Soil Map",
+    title: "Digitized Geology Map",
     location: "Kogi State, Nigeria",
     tools: "ArcGIS Pro",
-    dataset: "Nigeria Soil Survey",
+    dataset: "Nigeria Geological Map",
     image: img4,
   },
   {
@@ -166,7 +166,7 @@ const projectData = [
     image: img17,
   },
   {
-    title: "Bus Terminal Location Map",
+    title: "Public Bus Terminal Location Map",
     location: "Abuja, Nigeria",
     tools: "ArcGIS Pro, Excel",
     dataset: "GPS",
@@ -180,7 +180,7 @@ const projectData = [
     image: img19,
   },
   {
-    title: "Property value Map",
+    title: "Property Value Map",
     location: "Anyigba, Nigeria",
     tools: "ArcGIS",
     dataset: "GPS",
